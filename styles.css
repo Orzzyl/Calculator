@@ -1,0 +1,23 @@
+.button-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    background-color: #e8e7eb;
+    color: #0c0c0d;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
